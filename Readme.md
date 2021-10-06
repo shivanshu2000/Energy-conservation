@@ -1,1 +1,1 @@
-A totally static app made as a project in 2nd semester.
+A totally static app made as an assignment project in 2nd semester.
