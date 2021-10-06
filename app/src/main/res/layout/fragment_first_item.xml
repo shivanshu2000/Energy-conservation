@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstItemFragment">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bulb2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="4dp"
+                android:text="@string/increasing_demand_the_world_over_and_ever_increasing_prices_of_energy_have_provided_a_justifiable_reason_for_improving_energy_efficiences_of_all_energy_intensive_technologies_some_methods_of_saving_energy_are_as_follows"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="4dp"
+                android:text="@string/the_basic_and_most_important_ways_just_turn_off_the_lights_when_not_in_use"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="4dp"
+                android:text="@string/maximum_sunlight_should_be_used_during_the_day_blbs_and_tubelights_should_not_be_used_during_day"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="4dp"
+                android:text="@string/use_task_lighting_whenever_possible_instead_of_brightly_lightening_an_entire_area_or_room"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="4dp"
+                android:text="@string/use_compat_fluorescent_lamps_cfl_in_place_of_incandescent_bulbs_a_23_watt_compact_fluorescent_bulb_can_replace_90_or_100_watt"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="4dp"
+                android:text="@string/do_not_keep_computer_tv_tape_recorder_music_system_in_stand_by_mode_you_can_save_70_kilowatt_hour_per_year"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="4dp"
+                android:text="@string/geysers_consume_the_maximum_amount_of_electricity_thermostat_can_be_set_to_a_lower_temperature_45_degrees_to_50_degrees_celsius"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

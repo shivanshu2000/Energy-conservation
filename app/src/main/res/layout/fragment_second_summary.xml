@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondSummaryFragment">
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/image_top_of_summary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:padding="4dp"
+        android:text="Sensor based switching model to save electricity"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView65">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:text="@string/the_intention_of_developing_this_simple_basic_sensor_based_switching_model_is_to_minimize_the_energy_usage_by_switching_on_and_off_the_switches_when_it_is_required_the_switch_will_be_switched_on_when_the_students_are_inside_the_class_and_will_be_switched_off_when_the_students_are_not_inside_the_class_also_column_wise_switching_on_the_lights_and_fans_are_also_possible_with_this_model_i_e_when_the_students_are_not_sitting_in_any_column_of_the_benches_the_fans_and_lights_for_that_column_will_be_switched_off_thus_conserving_energy"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/pir_image" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="4dp"
+                android:text="@string/circuit_diagram_of_the_sensor_based_switching_model"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:text="@string/the_model_uses_a_passive_infrared_sensor_pir_an_individual_pir_sensor_detects_changes_in_the_amount_of_infrared_radiation_impinging_upon_it_which_varies_depending_on_the_temperature_and_surface_characteristics_of_the_objects_in_front_of_the_sensor_when_an_object_such_as_a_human_passes_in_front_of_the_background_such_as_a_wall_the_temperature_at_that_point_in_the_sensor_s_field_of_view_will_rise_from_room_temperature_to_body_temperature_and_then_back_again_the_sensor_converts_the_resulting_change_in_the_incoming_infrared_radiation_into_a_change_in_the_output_voltage_and_this_triggers_the_detection"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="4dp"
+                android:layout_margin="6dp"
+                android:text="@string/the_working_of_the_sensor_based_switch_is_that_when_there_are_students_in_a_particular_column_they_will_be_sensed_and_communicated_to_the_transistor_and_the_switches_for_the_fan_and_light_will_be_switched_on_whereas_the_columns_with_no_students_the_fans_and_lights_will_not_be_switched_on_thus_saving_the_energy" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

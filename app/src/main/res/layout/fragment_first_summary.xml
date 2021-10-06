@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstSummaryFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/image_top_of_summary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_margin="6dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:text="@string/abstract_energy_is_very_important_in_the_entire_process_of_evolution_growth_and_survival_of_the_world_the_increasing_energy_demand_has_an_adverse_effect_on_the_environment_and_also_an_increasing_pressure_for_a_government_for_a_developing_country_like_india_the_energy_criterion_decides_the_growth_of_the_country_being_the_third_largest_power_producer_in_the_world_energy_demand_and_scarcity_rules_the_country_energy_demand_in_our_country_is_increasing_exponentially_energy_conservation_can_be_the_best_solution_for_the_raising_energy_demand_energy_conservation_is_reducing_the_energy_consumption_by_using_less_of_an_energy_service_one_of_the_important_ways_of_to_improve_the_energy_conservation_is_energy_audit_energy_conservation_without_compromising_the_usage_is_a_great_task_the_paper_focuses_on_the_importance_of_energy_conservation_by_considering_the_loads_of_a_class_room_of_an_educational_institution_and_considering_the_energy_consumed_by_the_present_loads_and_recommending_energy_efficient_appliances_and_an_efficient_yet_simple_sensor_based_model_to_reduce_the_energy_consumption_and_comparing_the_results" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="POWER CONSUMPTION OF APPLIANCES" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/table_summary" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="6dp"
+                android:padding="4dp"
+                android:textColor="#000000"
+                android:text="@string/for_30_days_of_a_month_considering_22_working_days_with_8_working_hours_the_energy_consumption_is_205_93kwh_per_month_and_considering_10_working_months_per_year_energy_consumption_is_2059_3kwh_it_is_also_assumed_that_the_appliances_will_run_during_the_working_days_without_interruption_then_the_cost_per_year_has_been_calculated_as_rs_12_355_80_at_the_rate_of_rs_6_unit_this_is_for_one_class_room_in_the_educational_institution_the_institution_has_more_than_45_such_classrooms" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="6dp"
+                android:padding="4dp"
+                android:textColor="#000000"
+                android:text="@string/in_order_to_minimize_the_energy_consumption_energy_efficient_appliances_are_recommended_to_replace_the_existing_ones_and_an_idea_is_proposed_about_a_sensor_based_switching_model_to_switch_on_and_off_the_lights_and_fans_when_required" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
